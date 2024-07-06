@@ -1,12 +1,10 @@
-import Directory from "@/components/Directory";
-import Featured from "@/components/Featured";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import Featured from "@/components/Featured";
+import Directory from "@/components/Directory";
 
 export default function page() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Featured />
       <Directory />

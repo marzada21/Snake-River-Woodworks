@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap');
+
+nav {
+    font-family: "Lexend Peta", sans-serif;
+    margin-top: 40px;
+}
+
+.srw-container {
+    margin-left: 7.4%;
+}
+
+.srw {
+    font-size: 29px;
+}
+
+.nav-links {
+    padding: 10px 20px;
+    gap: 45px;
+}
+
+.nav-link-number {
+    font-size: 14px;
+}
+
+.nav-link-name {
+    font-size: 16px;
+}
+
+.nav-link-number:hover {
+    cursor: default;
+}
+
+.cart-container {
+    padding: 5px 40px 5px 20px;
+    font-size: 27px;
+}
+
+.cart-container:hover {
+    cursor: pointer;
+}
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+    cursor: pointer;
+  }
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
