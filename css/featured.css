@@ -1,0 +1,29 @@
+.ft-container {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.ft {
+    font-family: "Lexend Peta", sans-serif;
+    padding: 40px 0;
+}
+
+.ft-heading {
+    padding-bottom: 25px;
+}
+
+.ft-items {
+    margin: 0 5%;
+}
+
+.ft-item {
+    padding: 10px;
+}
+
+.ft-item-img {
+    height: 550px;
+    margin: 20px 20px 15px 20px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
