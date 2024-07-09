@@ -12,7 +12,15 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-bg': "url('/hero-bg.jpg')",
       },
+    },
+    colors: {
+      overlay: '#14141499',
+      white: '#ffffff',
+    },
+    lineHeight: {
+      'regular': '0.9',
     },
   },
   plugins: [],

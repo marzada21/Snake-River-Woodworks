@@ -1,47 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
 nav {
-    font-family: "Lexend Peta", sans-serif;
-    margin-top: 40px;
-}
-
-.srw-container {
-    margin-left: 7.4%;
-}
-
-.srw {
-    font-size: 30px;
-}
-
-.nav-links {
-    padding: 10px 20px;
-    gap: 65px;
+    font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .nav-link-number {
-    font-size: 14px;
-}
-
-.nav-link-name {
-    font-size: 16px;
+    font-family: "Langar", system-ui;
+    font-size: 18px;
 }
 
 .nav-link-number:hover {
     cursor: default;
 }
 
-.cart-container {
-    padding: 5px 40px 5px 15px;
-    font-size: 27px;
+.nav-link-name {
+    font-size: 20px;
+    font-weight: 500;
 }
-
-.cart-container:hover {
-    cursor: pointer;
-}
-
 
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
   }
   .hover-underline-animation::after {
@@ -49,7 +31,7 @@ nav {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 1px;
+    height: 2px;
     bottom: 0;
     left: 0;
     background-color: white;
